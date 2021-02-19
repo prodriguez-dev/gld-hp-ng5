@@ -1,0 +1,8 @@
+<div class="first-button">
+  <button (click)="change()">{{button_text}}</button>
+</div>
+
+<div class="my_class" (click)="clickEvent()"
+  [ngClass]="status ? 'sucess' : 'danger'">
+  anything here
+</div>
